@@ -1,4 +1,4 @@
-name: java develop
+name: java_development_on_docker
 on: push
 
 jobs:
