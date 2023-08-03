@@ -5,4 +5,5 @@ Added gitHub actions workflow today again and again testing till its done right.
 
 [![Releases](https://img.shields.io/github/release/TendaiCho/sem/all.svg?style=flat-square)](https://github.com/TendaiCho/sem/releases)
 # Software Engineering Methods- badges again
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/TendaiCho/sem/A workflow for my Hello World App/develop?style=flat-square
+# Software Engineering Methods
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/TendaiCho/sem/<action name taken from main.yml>/<branch>?style=flat-square)
