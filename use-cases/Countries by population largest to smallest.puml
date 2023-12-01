@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+actor Clerk as "Statistician"
+rectangle Database
+rectangle "World Population" {
+usecase UC1 as "Get world population and display greatest to smallest"
+usecase UCa as "Print world population"
+
+Clerk - UC1
+UC1 ..> UCa : include
+UC1 - Database
+}
+
+
+@enduml
+
+
+
+
+
