@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+actor Clerk as "Statistician"
+rectangle Database
+rectangle "World Population" {
+usecase UC2 as "Get top N populated cities where N is provide by user"
+usecase UCb as "Print top N cities"
+
+Clerk - UC2
+UC2 ..> UCb : include
+UC2 - Database
+}
+@enduml
